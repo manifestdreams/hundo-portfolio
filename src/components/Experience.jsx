@@ -199,16 +199,18 @@ export default function Experience({ onSelectProject }) {
 
       {/* 3D Post Processing Composer */}
       {/* Bloom gives neon lines/emissive textures their glowing visual halo */}
-      <EffectComposer>
-        <Bloom 
-          luminanceThreshold={0.12} 
-          luminanceSmoothing={0.7} 
-          intensity={1.2} 
-        />
-        <Noise 
-          opacity={0.06} // film grain in WebGL canvas
-        />
-      </EffectComposer>
+   {/* 
+<EffectComposer>
+  <Bloom 
+    luminanceThreshold={0.12} 
+    luminanceSmoothing={0.7} 
+    intensity={1.2} 
+  />
+  <Noise 
+    opacity={0.06}
+  />
+</EffectComposer>
+*/}
     </>
   );
 }

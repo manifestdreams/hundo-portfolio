@@ -5,7 +5,22 @@ import Experience, { PROJECTS } from './components/Experience';
 
 // Custom Loading Screen
 function CustomLoader() {
-  const { progress } = useProgress();
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    let t = 0;
+  
+    const interval = setInterval(() => {
+      t += 2;
+      setProgress(t);
+  
+      if (t >= 100) {
+        clearInterval(interval);
+      }
+    }, 30);
+  
+    return () => clearInterval(interval);
+  }, []);
   const [show, setShow] = useState(true);
 
   useEffect(() => {
