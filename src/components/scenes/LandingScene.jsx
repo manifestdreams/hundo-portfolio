@@ -73,7 +73,7 @@ export default function LandingScene({ mouse }) {
       <group ref={titleRef}>
         {/* Layer 1: Metallic Solid Text */}
         <Text
-          font="https://fonts.gstatic.com/s/syne/v8/8v0fQGF5R8umz1N2.woff2"
+          font="/fonts/Syne.ttf"
           fontSize={2.5}
           letterSpacing={-0.05}
           color="#ffffff"
@@ -93,7 +93,7 @@ export default function LandingScene({ mouse }) {
 
         {/* Layer 2: Neon Cyan Glowing Outline (slightly scaled and offset forward) */}
         <Text
-          font="https://fonts.gstatic.com/s/syne/v8/8v0fQGF5R8umz1N2.woff2"
+          font="/fonts/Syne.ttf"
           fontSize={2.52}
           letterSpacing={-0.05}
           anchorX="center"
@@ -110,7 +110,7 @@ export default function LandingScene({ mouse }) {
       {/* Subtitle / HUD Details in 3D */}
       <group ref={subTitleRef} position={[0, -1.8, 0.5]}>
         <Text
-          font="https://fonts.gstatic.com/s/spacemono/v13/i7dMIF98y9ORRtGHv7B92w8.woff2"
+          font="/fonts/SpaceMono.ttf"
           fontSize={0.2}
           letterSpacing={0.2}
           color="#00f0ff"
@@ -119,7 +119,7 @@ export default function LandingScene({ mouse }) {
           FREQUENCY / AUDIO / INSTALLATION
         </Text>
         <Text
-          font="https://fonts.gstatic.com/s/spacemono/v13/i7dMIF98y9ORRtGHv7B92w8.woff2"
+          font="/fonts/Orbitron.ttf"
           fontSize={0.12}
           letterSpacing={0.1}
           color="#888899"

@@ -83,7 +83,7 @@ export default function AboutScene() {
       <group ref={textGroupRef} position={[-1.2, -8, 0]}>
         {/* Section label */}
         <Text
-          font="https://fonts.gstatic.com/s/orbitron/v25/yV08Q5VXNdng0545jHubi78.woff2"
+          font="/fonts/Orbitron.ttf"
           fontSize={0.12}
           letterSpacing={0.2}
           color="#00f0ff"
@@ -95,7 +95,7 @@ export default function AboutScene() {
 
         {/* Floating Typography Statement */}
         <Text
-          font="https://fonts.gstatic.com/s/syne/v8/8v0fQGF5R8umz1N2.woff2"
+          font="/fonts/Syne.ttf"
           fontSize={0.5}
           color="#ffffff"
           position={[0, 0.6, 0.5]}
@@ -106,7 +106,7 @@ export default function AboutScene() {
         </Text>
 
         <Text
-          font="https://fonts.gstatic.com/s/spacemono/v13/i7dMIF98y9ORRtGHv7B92w8.woff2"
+          font="/fonts/SpaceMono.ttf"
           fontSize={0.15}
           lineHeight={1.5}
           color="#e2e2e9"
@@ -118,7 +118,7 @@ export default function AboutScene() {
         </Text>
 
         <Text
-          font="https://fonts.gstatic.com/s/spacemono/v13/i7dMIF98y9ORRtGHv7B92w8.woff2"
+          font="/fonts/SpaceMono.ttf"
           fontSize={0.13}
           lineHeight={1.6}
           color="#888899"

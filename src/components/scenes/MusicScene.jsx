@@ -116,7 +116,7 @@ function InteractiveCassette({ position, project, onSelect }) {
 
       {/* Mini Title text */}
       <Text
-        font="https://fonts.gstatic.com/s/orbitron/v25/yV08Q5VXNdng0545jHubi78.woff2"
+        font="/fonts/Orbitron.ttf"
         fontSize={0.06}
         color="#000"
         position={[0, 0.05, 0.053]}
@@ -322,7 +322,7 @@ export default function MusicScene({ onSelectProject }) {
 
       {/* Floating 3D Text label */}
       <Text
-        font="https://fonts.gstatic.com/s/orbitron/v25/yV08Q5VXNdng0545jHubi78.woff2"
+        font="/fonts/Orbitron.ttf"
         fontSize={0.12}
         letterSpacing={0.2}
         color="#0066ff"

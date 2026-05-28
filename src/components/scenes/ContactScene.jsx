@@ -48,7 +48,7 @@ export default function ContactScene() {
 
       {/* 3D exit chamber labels */}
       <Text
-        font="https://fonts.gstatic.com/s/orbitron/v25/yV08Q5VXNdng0545jHubi78.woff2"
+    font="/fonts/Orbitron.ttf"
         fontSize={0.12}
         letterSpacing={0.2}
         color="#0066ff"
